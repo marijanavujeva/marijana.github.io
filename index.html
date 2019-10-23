@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Rukometni klub Rvacka</title>
+<title>Rukoetni klub Rvacka</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -12,79 +12,69 @@ body {font-family: "Lato", sans-serif}
 </style>
 <body>
 
-
+<!-- Navbar -->
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    
-    <a href="#RK Rvacka" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RK Rvacka</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#rk rvacka" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RK RVACKA</a>
     <a href="#vijesti" class="w3-bar-item w3-button w3-padding-large w3-hide-small">VIJESTI</a>
     <a href="#kontakt" class="w3-bar-item w3-button w3-padding-large w3-hide-small">KONTAKT</a>
-    <div class="w3-dropdown-hover w3-hide-small"
+    <div class="w3-dropdown-hover w3-hide-small">
     </div>
     <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
   </div>
 </div>
 
-
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#RK Rvacka" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RK Rvacka/a>
+  <a href="#rk rvacka" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RK RVACKA</a>
   <a href="#vijesti" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">VIJESTI</a>
   <a href="#kontakt" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">KONTAKT</a>
   <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
 </div>
 
-
+<!-- Page content -->
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
+  
+      
 
-  <div class="mySlides w3-display-container w3-center">
-    <img src="klub.jpg" style="width:100%"> 
-    </div>
-
- 
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="rk rvacka">
-    <h2 class="w3-wide">RK RVACKA</h2>
-    <p class="w3-justify">Rukometni klub Rvacka osnovan je prije godinu i pol dana. Nalazi se u gradu Livnu(Bosna i Hercegovina).Klub je osnovao Ćole,a trener je Ivan Vidović.
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">RK Rvacka</h2>
+    <p class="w3-opacity">Rukometni klub Rvacka</i></p>
+    <p class="w3-justify">
     <div class="w3-row w3-padding-32">
       <div class="w3-third">
-        
- <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="vijesti">
-        <h3 class="w3-wide">Vijesti</h3>
-        <p class="w3-justify"> <strong>Rukometaši Širokoga pobijedili su Rvacku s uvjerljivih 36:22 (20:7) u susretu 1. kola Prve lige Rukometnog saveza Herceg-Bosne igranom u subotu navečer u dvorani Pecara.</strong>
-         Momčad iz Livna tako je imala ”vatreno krštenje” u svom debitantskom nastupu u Ligi dok su Širokobriježani na najbolji način otvorili novu sezonu.
+  </div>
 
-Domaći su odlično otvorili susret te su iz minute u minutu povećavali prednost, a koliko je obrana bila na razini svjedoči podatak da su gosti u prvom poluvremenu postigli tek sedam pogodaka.
-Pitanje pobjednika riješeno je tako već u prvih 30 minuta, a trener Širokoga Mihovil Bilać je u prvom poluvrijeme dao priliku igračima s klupe dok je u drugom dijelu susreta kombinirao momčad i dao priliku svim igračima koji su u opuštenom ritmu priveli utakmicu kraju slavivši s 14 pogodaka razlike (36:22).
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">Vijesti</h2>
 
-Mate Marušić s 12 pogodaka predvodio je Široki do uvjerljive pobjede, dok su Petar Šušak i Lovrić Jurić pridodali po 5 pogodaka. Kod Rvacke su najučinkovitiji bili Naglić sa 7, Herceg sa 6 i Popović s 5 pogodaka.
+     
   <!-- Ticket Modal -->
   <div id="ticketModal" class="w3-modal">
     <div class="w3-modal-content w3-animate-top w3-card-4">
       <header class="w3-container w3-teal w3-center w3-padding-32"> 
         <span onclick="document.getElementById('ticketModal').style.display='none'" 
        class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
       </header>
       <div class="w3-container">
-       
-        <input class="w3-input w3-border" type="text" placeholder="How many?">
-        
-        <input class="w3-input w3-border" type="text" placeholder="Enter email">
-        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
-        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
-        
-      </div>
     </div>
   </div>
 
   <!-- The Contact Section -->
-  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="kontakt">
     <h2 class="w3-wide w3-center">KONTAKT</h2>
- 
+    
     <div class="w3-row w3-padding-32">
       <div class="w3-col m6 w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker" style="width:30px"></i> Livno, BiH<br>
-        <i class="fa fa-phone" style="width:30px"></i> mob: +387 63 438 801<br>
+        <i class="fa fa-map-marker" style="width:30px"></i> Livno,BiH<br>
+        <i class="fa fa-phone" style="width:30px"></i> mob: 063438801<br>
         <i class="fa fa-envelope" style="width:30px"> </i> Email: rkrvacka@gmail.com<br>
       </div>
       <div class="w3-col m6">
@@ -98,15 +88,27 @@ Mate Marušić s 12 pogodaka predvodio je Široki do uvjerljive pobjede, dok su 
             </div>
           </div>
           <input class="w3-input w3-border" type="text" placeholder="Poruka" required name="Poruka">
-          <button class="w3-button w3-black w3-section w3-right" type="submit">ŠALJI</button>
+          <button class="w3-button w3-black w3-section w3-right" type="submit">Šalji</button>
         </form>
       </div>
     </div>
   </div>
   
+<!-- End Page Content -->
+</div>
 
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
 
-
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+</footer>
 
 <script>
 // Automatic Slideshow - change image every 4 seconds
@@ -146,4 +148,3 @@ window.onclick = function(event) {
 
 </body>
 </html>
-
