@@ -6,7 +6,24 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 <style>
 body {font-family: "Lato", sans-serif}
 .mySlides {display: none}
@@ -21,7 +38,12 @@ body {font-family: "Lato", sans-serif}
     <a href="#rk rvacka" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RK RVACKA</a>
     <a href="raspored utakmica.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RASPORED UTAKMICA</a>
     <a href="#vijesti" class="w3-bar-item w3-button w3-padding-large w3-hide-small">VIJESTI</a>
-    <a href="momčad.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MOMČAD</a>
+    < div class="dropdown"> <p> MOMČAD</p>
+      <div class="dropdown-content">
+  <p>Seniori</p> <br>
+       <p>Seniori</p> 
+     </div>   
+    </div>
     <a href="treneri i službena lica.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TRENERI I SLUŽ.LICA</a>
     <a href="fotografije.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small"> FOTOGRAFIJE</a>
     <a href="kontakt.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">KONTAKT</a>
