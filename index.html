@@ -9,7 +9,16 @@
 
 }
 <style>
-    .dropdown {
+  .dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
   position: relative;
   display: inline-block;
 }
@@ -20,12 +29,25 @@
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
   z-index: 1;
 }
 
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
 body {font-family: "Lato", sans-serif}
 .mySlides {display: none}
 </style>
@@ -38,7 +60,13 @@ body {font-family: "Lato", sans-serif}
     
     <a href="#rk rvacka" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RK RVACKA</a>
     <a href="raspored utakmica.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RASPORED UTAKMICA</a>
-    <a href="#vijesti" class="w3-bar-item w3-button w3-padding-large w3-hide-small">VIJESTI</a>
+   <div class="dropdown"> <a href="#vijesti" class="w3-bar-item w3-button w3-padding-large w3-hide-small">VIJESTI </a>
+       <div class="dropdown-content">
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
+  </div>
+       </div>
    
     <a href="treneri i službena lica.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TRENERI I SLUŽ.LICA</a>
     <a href="fotografije.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small"> FOTOGRAFIJE</a>
