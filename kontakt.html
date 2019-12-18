@@ -3,38 +3,74 @@
 <title>Kontakt</title>
 <body>
    
-          <!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-card">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    
-    <a href="#rk rvacka" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RK RVACKA</a>
-     <a href="#vijesti" class="w3-bar-item w3-button w3-padding-large w3-hide-small">VIJESTI</a>
-    <a href="raspored utakmica.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RASPORED UTAKMICA</a>
+          <<style>
+  .dropbtn {
+  background-color:black;
+  color: white;
+  padding: 14px;
+  font-size: 14px;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color:white}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: black;
+}
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
 
-    
-    <a href="treneri i službena lica.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TRENERI I SLUŽ.LICA</a>
-    <a href="fotografije.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small"> FOTOGRAFIJE</a>
-    <a href="kontakt.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">KONTAKT</a>
+<!-- Navbar -->
+<div class="w3-top" style="padding-bottom:50px">
+  <div class="w3-bar w3-black w3-card" style="padding-bottom:50px">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <table>
+      <tr>
+      <td> <a href="#rk rvacka" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RK RVACKA</a></td>
+     <td><a href="#vijesti" class="w3-bar-item w3-button w3-padding-large w3-hide-small">VIJESTI</a></td>
+   <td> <a href="raspored utakmica.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RASPORED UTAKMICA</a></td>
+   <td>
+     <div class="dropdown">
+    <button class="w3-bar-item dropbtn w3-button w3-padding-large w3-hide-small">MOMČAD</button>
+<div class="dropdown-content">
+        <a href="juniori.html">Juniori</a>
+        <a href="seniori.html">Seniori</a>
+</div>
+    </div>
+        </td>
+   <td> <a href="treneri i službena lica.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TRENERI I SLUŽ.LICA</a></td>
+    <td><a href="fotografije.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small"> FOTOGRAFIJE</a></td>
+   <td> <a href="kontakt.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">KONTAKT</a></td>
+      </tr>
+    </table>
+   
     
     <div class="w3-dropdown-hover w3-hide-small">
     </div>
     
   </div>
 </div>
-
-<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) 
-<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#rk rvacka" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RK RVACKA</a>
-  <a href="#raspored utakmica" class="w3-bar-item w3-button w3-padding-large" onclick="myFuction()">RASPORED UTAKMICA</a>
-  <a href="#vijesti" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">VIJESTI</a>
- 
-  <a href="#treneri i službena lica" class="w3-bar-item w3-button w3-padding-large" onclick="myFuction()">TRENERI I SLUŽ.LICA</a>
-  <a href="fotografije" class="w2-bar-item w3-button w3-padding-large" onclick="myFuction()">FOTOGRAFIJE</a>                                                                                     
-  <a href="#kontakt" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">KONTAKT</a>
-  
-</div>
--->
 <!-- Page content -->
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
    
